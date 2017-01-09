@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": ".dest-tsc",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+
+        "jsx": "react",
+        "lib": [
+            "es5",
+            "es2015.promise",
+            "dom"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
